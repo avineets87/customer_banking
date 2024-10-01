@@ -44,4 +44,4 @@ def create_savings_account(balance, interest_rate, months):
     # Return the updated balance and interest earned.
     # ADD YOUR CODE HERE
 
-    return savings_account_balance
+    return (savings_account_balance, interest_earned)
