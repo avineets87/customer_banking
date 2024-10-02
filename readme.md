@@ -3,6 +3,21 @@
 ## Overview
 Creating a customer banking system that allows users to calculate and track interest earned on savings and CD accounts. By running this application, users will be able to enter their savings and CD account information, see the interest earned, and view the updated balances after a specified number of months.
 
+### Sample Output
+
+``` text
+(dev) (base) avineetsharma@Avineets-MacBook-Air customer_banking % conda activate dev
+(dev) (dev) avineetsharma@Avineets-MacBook-Air customer_banking % python customer_banking.py 
+Hey User, please enter your savings balance: 10000
+Hey User, please enter your savings interest rate: 5
+Hey User, please enter the savings maturity duration in months: 24
+Okay! Here is your interest earned in your saving account 1,000.00 and updated savings account balance 11,000.00
+Hey User, please enter your cd balance: 10000
+Hey User, please enter your cd interest rate: 10
+Hey User, please enter the cd maturity duration in months: 24
+Alright! Here is your interest earned in your CD account 2,000.00 and updated savings account balance 12,000.00
+```
+
 ### Implementation Details
 
 #### Create the Savings Account Function
